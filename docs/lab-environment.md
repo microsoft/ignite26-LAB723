@@ -100,13 +100,13 @@ The exercises create everything else: the `inference` Deployment, Service, and I
 
 ## Lab VM
 
-A Windows 11 VM with Visual Studio Code, Microsoft Edge, the Azure CLI, `kubectl`, and `kubelogin`. The kubeconfig uses kubelogin's `azurecli` mode, so `kubectl` uses your `az login`. VS Code opens `C:\LabFiles\LAB723`, which has the lab files from the `labfiles` folder of the [ai-lab repository](https://github.com/bbenz/ai-lab), with the lab's registry and other names in place of the placeholders in angle brackets.
+A Windows 11 VM with Visual Studio Code, Microsoft Edge, the Azure CLI, `kubectl`, and `kubelogin`. The kubeconfig uses kubelogin's `azurecli` mode, so `kubectl` uses your `az login`. VS Code opens `C:\LabFiles\LAB723`, which has the lab files from the `labfiles` folder of the [ai-lab repository](https://aka.ms/ignite26-ai-lab), with the lab's registry and other names in place of the placeholders in angle brackets.
 
 ## The sample app and model
 
 The inference service classifies English text as POSITIVE or NEGATIVE with [DistilBERT base uncased, fine-tuned on SST-2](https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english), an Apache-2.0 model, exported to ONNX and run with ONNX Runtime behind FastAPI. It loads the model from Blob Storage with workload identity, reports its own latency, serves Prometheus metrics at `/metrics`, and sends OpenTelemetry traces to Application Insights. The same model runs on the Ray workers for the batch job in Exercise 5.
 
-The [ai-lab repository](https://github.com/bbenz/ai-lab) has the app's source, the Dockerfiles for the six images, the lab files, the Ray notebook, the dashboard, and the model's pinned download list. Its workflow publishes the images as `ghcr.io/bbenz/lab723/<name>:1.0.0`.
+The [ai-lab repository](https://aka.ms/ignite26-ai-lab) has the app's source, the Dockerfiles for the six images, the lab files, the Ray notebook, the dashboard, and the model's pinned download list. Its workflow publishes the images as `ghcr.io/bbenz/lab723/<name>:1.0.0`.
 
 ## Run the exercises on your own
 
