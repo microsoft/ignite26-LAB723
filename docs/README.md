@@ -1,10 +1,9 @@
-# Docs
+# Reference
 
-<!-- IGNITE TEMPLATE PLACEHOLDER: remove this folder when the session needs no additional documentation. -->
+Background and reference material for LAB723. The step-by-step lab is in [the lab instructions](../instructions/README.md).
 
-Use this folder for supporting documentation such as reference material and
-architecture/context.
+| Page | What's in it |
+| --- | --- |
+| [The lab environment](lab-environment.md) | The lab's architecture, and what the hosted lab sets up for each attendee: the Azure resources, roles, cluster settings, and Kubernetes objects that the exercises expect. It also describes how to build a similar environment in your own Azure subscription. |
 
-If this repository intentionally uses MkDocs or another docs-site pattern,
-attendee instructions can remain here. Link the attendee entry point clearly
-from the root README.
+The sample app's source, the manifests that the exercises apply, the Ray notebook, and the dashboard are in the [ai-lab repository](https://github.com/bbenz/ai-lab).
