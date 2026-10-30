@@ -45,7 +45,7 @@ In the hosted lab, everything in the following table is already provisioned for 
 
 - In the hosted lab, these steps are also in the lab's instruction pane. There, you select a command to type it into the terminal, select the checkbox next to each step to track your progress, and type your measurements in text boxes that later steps reuse.
 - On this page, copy each command into the terminal, and press **Enter** to run it. Write down the measurements that a step asks you to record, because Exercise 3 compares them.
-- Run the commands from the folder that has the lab files: `C:\LabFiles\LAB723` in the hosted lab, which VS Code opens, or the `labfiles` folder of the [ai-lab repository](https://github.com/bbenz/ai-lab) on your own.
+- Run the commands from the folder that has the lab files: `C:\LabFiles\LAB723` in the hosted lab, which VS Code opens, or the `labfiles` folder of the [ai-lab repository](https://aka.ms/ignite26-ai-lab) on your own.
 - On your own, set up an environment like the hosted lab's first, as [The lab environment](../docs/lab-environment.md) describes, and replace the placeholders in angle brackets in the lab files, such as `<registry>`, with your own values. Where a step uses the hosted lab's sign-in or names, use your own.
 - Commands that end with `--watch` keep running until you press **Ctrl+C**.
 - If you fall behind, look for the **Stuck?** section at the end of an exercise to catch up.
@@ -887,7 +887,7 @@ Ask a proctor for help. To keep going, open **ray-batch-inference-EXAMPLE-OUTPUT
 
 - **Other compute profiles:** To target different hardware, change the `NodePool` requirements and the workload's resource requests. The rest of the manifest stays the same.
 - **Other Kubernetes environments:** Explicit requests and limits, probes, versioned image tags, and spreading rules make these manifests portable. On a local cluster, you don't get node autoprovisioning, deployment safeguards, or managed monitoring, so you supply the defaults that AKS Automatic otherwise provides.
-- **Takeaway repository:** The manifests, profiles, and notebook from this lab are available in the [ai-lab repository](https://github.com/bbenz/ai-lab). To run the exercises again in your own subscription, see [Run the exercises on your own](../docs/lab-environment.md#run-the-exercises-on-your-own).
+- **Takeaway repository:** The manifests, profiles, and notebook from this lab are available at [aka.ms/ignite26-ai-lab](https://aka.ms/ignite26-ai-lab). To run the exercises again in your own subscription, see [Run the exercises on your own](../docs/lab-environment.md#run-the-exercises-on-your-own).
 
 ### Task 3: Clean up
 

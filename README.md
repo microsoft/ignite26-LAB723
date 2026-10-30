@@ -25,7 +25,7 @@ If you're following along during a live session:
 
 If you're learning at your own pace:
 
-1. Clone this repository, and the lab content repository, [`bbenz/ai-lab`](https://github.com/bbenz/ai-lab), which has the manifests that the exercises apply, the sample app and its container images, the Ray notebook, and the dashboard.
+1. Clone this repository, and the lab content repository, [`ai-lab`](https://aka.ms/ignite26-ai-lab), which has the manifests that the exercises apply, the sample app and its container images, the Ray notebook, and the dashboard.
 2. Set up an environment like the hosted lab's, as [The lab environment](docs/lab-environment.md) describes. You need an Azure subscription where you can create an AKS Automatic cluster and assign roles, and GPU quota for the optional accelerated profile.
 3. Follow the lab steps in [`instructions/`](instructions/README.md), and run the commands from the `labfiles` folder of your `ai-lab` clone.
 
@@ -61,7 +61,7 @@ Pick your next step based on your learning style:
 | **[Microsoft Learn](https://aka.ms/ignite26-learn)** | Official documentation and guided learning paths on these topics |
 | **[Microsoft Foundry Community](https://aka.ms/MicrosoftFoundryDiscord-Ignite26)** | Connect with other learners and experts in our Discord community |
 | **[AKS Automatic documentation](https://learn.microsoft.com/azure/aks/intro-aks-automatic)** | Concepts, quickstarts, and how-to guides for the cluster that this lab uses |
-| **[Lab content repository](https://github.com/bbenz/ai-lab)** | The sample app, manifests, Ray notebook, and dashboard from this lab |
+| **[Lab content repository](https://aka.ms/ignite26-ai-lab)** | The sample app, manifests, Ray notebook, and dashboard from this lab |
 
 ### 🌟 Microsoft Learn MCP Server
 
